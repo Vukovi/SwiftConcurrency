@@ -20,6 +20,7 @@ final class StrongSelfViewModel: ObservableObject {
     let service = StrongSelfService()
     
     private var customTask: Task<Void, Never>?
+    private var tasks: [Task<Void, Never>] = []
     
     // MARK: - prekidanje taskova
     func cancelTasks() {
@@ -32,7 +33,7 @@ final class StrongSelfViewModel: ObservableObject {
         tasks.removeAll()
     }
     
-    private var tasks: [Task<Void, Never>] = []
+    
     
     // MARK: - Zasto ne ubacujemo [weak self] i na taj nacin ne hendlamo strong reference
     // Zato sto Task {} to hendla za nas, osim u slucaju kad se ekran ukine pre kraja izvrsenja ili mi hocemo da prekinemo izvrsenje
