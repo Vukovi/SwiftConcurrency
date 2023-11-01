@@ -18,7 +18,7 @@ Task {
 
 - paralelnost se dobija dodavanjem vise TASK-ova u jednom sinhronom blolu kao sto je:
   ```
- .onAppear{
+  .onAppear {
              Task {
                         ...1...
                         ...2...
