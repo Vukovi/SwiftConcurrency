@@ -68,7 +68,6 @@ class AsyncStreamDataManager {
 //        }
         
         // MARK: - VAZNO - ukoliko ukinemo samo Task to ne znaci da ce se ukinuti sam AsyncStream iz managera. To ce morati da se uradi nekom dodatnom metodom
-        
         let task = Task {
             do {
                 for try await value in manager.getAsyncStream(){

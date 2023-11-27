@@ -53,6 +53,7 @@ class AsyncPublisherViewModel: ObservableObject {
         Task {
             
             // MARK: - ova petlja se ne izvrsava odmah vec asinhrono, kako se publisuju vrednosti myData niza
+            // MARK: - .values je ASYNC_PUBLISHER
             for await value in await manager.$myData.values {
                 await MainActor.run {
                     self.dataArray = value
