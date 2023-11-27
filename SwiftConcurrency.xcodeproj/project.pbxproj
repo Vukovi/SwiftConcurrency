@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B4E1A62B14B6400095AE5D /* 17_AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B4E1A52B14B6400095AE5D /* 17_AsyncStream.swift */; };
 		CB24C2FB2AE7B3AC00825F42 /* 12_StrongSelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24C2FA2AE7B3AC00825F42 /* 12_StrongSelfView.swift */; };
 		CB24C3012AF01D3900825F42 /* 14_RefreshableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24C3002AF01D3900825F42 /* 14_RefreshableView.swift */; };
 		CB24C3032AF0225D00825F42 /* 15_SearchableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB24C3022AF0225D00825F42 /* 15_SearchableView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18B4E1A52B14B6400095AE5D /* 17_AsyncStream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 17_AsyncStream.swift; sourceTree = "<group>"; };
 		CB24C2FA2AE7B3AC00825F42 /* 12_StrongSelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12_StrongSelfView.swift; sourceTree = "<group>"; };
 		CB24C3002AF01D3900825F42 /* 14_RefreshableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 14_RefreshableView.swift; sourceTree = "<group>"; };
 		CB24C3022AF0225D00825F42 /* 15_SearchableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_SearchableView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				CB24C3002AF01D3900825F42 /* 14_RefreshableView.swift */,
 				CB24C3022AF0225D00825F42 /* 15_SearchableView.swift */,
 				CB286D392AF12DD4004BE3AF /* 16_PhotoPickerView.swift */,
+				18B4E1A52B14B6400095AE5D /* 17_AsyncStream.swift */,
 			);
 			path = SwiftConcurrency;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				CB769DB92ACD6AE500E9E0ED /* 13_AsyncButton.swift in Sources */,
 				CB6969362AC9F5FB00F7AD0B /* 01_DoTryCatchThrows.swift in Sources */,
 				CB24C3012AF01D3900825F42 /* 14_RefreshableView.swift in Sources */,
+				18B4E1A62B14B6400095AE5D /* 17_AsyncStream.swift in Sources */,
 				CBD60A322AD057850013C68A /* 06_Continuations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
